@@ -1,7 +1,7 @@
 <?
 	require ('connection.php');
 	
-	include ('window_parameter.php');
+	include ('window_parameter.php') ;
 	
 	try {
 		$sql = "	SELECT COUNT(*) COUNTN FROM EMPLOYEE_LEAVE_HISTORY ELH
